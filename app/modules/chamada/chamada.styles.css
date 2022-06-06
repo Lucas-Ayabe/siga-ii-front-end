@@ -1,0 +1,28 @@
+.chamada button {
+  grid-column: 2;
+}
+
+@media screen and (min-width: 800px) {
+  .chamada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 1em;
+  }
+
+  .chamada .choose-date {
+    position: sticky;
+    top: 1em;
+  }
+}
+
+.checkbox-field {
+  cursor: pointer;
+  border-radius: 4px;
+  background: rgb(0, 0, 0, 0.2);
+  padding: 1em;
+}
+
+.checkbox-field + .checkbox-field {
+  margin-block: 1em;
+}

@@ -1,0 +1,17 @@
+.disciplina-card:hover {
+  text-decoration: none;
+}
+
+.disciplina-card h2 {
+  font-size: 1.125em;
+}
+
+.disciplina-card em,
+.disciplina-card p {
+  color: #fff;
+}
+
+.disciplina-card:hover em,
+.disciplina-card:hover p {
+  text-decoration: none;
+}
